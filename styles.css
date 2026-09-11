@@ -257,9 +257,8 @@ p{margin:0}
 .experience::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;right:-160px;top:-160px;
   background:radial-gradient(circle,color-mix(in oklch,var(--mint) 14%,transparent),transparent 68%)}
 .experience-head{position:relative;max-width:760px;margin-bottom:clamp(40px,5vw,60px)}
-.exp-trophy{display:inline-grid;place-items:center;width:60px;height:60px;margin-bottom:18px;border-radius:16px;
-  color:var(--mint);font-size:30px;background:radial-gradient(circle at 30% 25%,color-mix(in oklch,var(--mint) 26%,transparent),transparent 70%);
-  border:1px solid color-mix(in oklch,var(--mint) 32%,transparent)}
+.exp-trophy{display:inline-grid;place-items:center;width:auto;height:auto;margin-bottom:18px;border-radius:0;
+  color:var(--mint);font-size:52px;background:none;border:0}
 .experience-head h2{font-size:clamp(28px,3.2vw,42px);line-height:1.12;margin-top:16px}
 .experience-head h2 em{font-style:normal;color:var(--mint)}
 .stats-grid{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
